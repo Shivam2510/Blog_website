@@ -1,0 +1,95 @@
+html {
+    min-height: 100%;
+    position: relative;
+  }
+
+  h1{
+      margin-bottom: 20px;
+  }
+
+  
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+      background-color: #8ED796;
+    
+  }
+  .navbar-default .navbar-brand{
+      color: #ffffff;
+  }
+
+  .navbar-nav  li a {
+    color: #FFFFFF !important;
+}
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+
+
+
+  /* Blog post div vard*/
+
+  body{
+      background-color:#FAFAFA;
+  }
+
+  .card{
+      border: 1px solid #8ED796;
+      border-radius: 10px;
+      padding: 10px;
+      background-color: #ECF8ED;
+      margin-bottom: 20px;
+  }
+  .card-body p{
+      font-size: 20px;
+  }
+  .btn{
+    background-image: linear-gradient(135deg, hsl(125, 46%, 75%), hsl(128, 50%, 50%));
+    box-shadow: 0px 0px 10px hsl(0, 36%, 70%, 0.5);
+    padding: 12px;
+    /* margin: 20px 0; */
+    margin-right: 10px;;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+   color: black;
+   
+    /* height: 55px; */
+    width: 120px;
+    /* font-size: 10px; */
+    transition: opacity 0.2s ease;
+  }
+  span{
+      margin-left: 260px;
+  }
+
+  /* Footer */
+  
+  .footer-padding {
+      padding-bottom: 60px;
+  }
+  
+  .footer {
+      position: absolute;
+      text-align: center;
+      bottom: 0;
+      width: 100%;
+      height: 60px;
+      background-color: #8ED796;
+  }
+  
+  .footer p {
+      margin-top: 25px;
+      font-size: 12px;
+    color: #fff;
+  }
+  
